@@ -168,9 +168,9 @@ It is important to note that `PutBucketAcl` modifies bucket-level ACL settings a
 To determine whether the exposed bucket was actively accessed, S3 access logs were analysed for object-level operations following the ACL modification. The review identified successful object upload activity associated with the affected bucket during the exposure window.
 
 ```spl
-index=botsv3 sourcetype=aws:s3:accesslogs0 frothlywebcode .txt
+index=botsv3 sourcetype=aws:s3:accesslogs frothlywebcode .txt
 | table _time, sourcetype, _raw
-| sort _time
+| head 20
 ```
 
 ![Uploaded File](images/07_File_Upload.png)
