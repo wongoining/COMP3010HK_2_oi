@@ -135,7 +135,7 @@ To support environmental validation, system telemetry data was reviewed to under
 index=botsv3 sourcetype=hardware
 ```
 
-![Processor Info](iamges/03_Processor.png)
+![Processor Info](images/03_Processor.png)
 
 Although this information does not indicate malicious activity, it confirms that observed behaviours occurred within a realistic enterprise-grade operating context. This contextual understanding supports the credibility of subsequent cross-domain correlations.
 
