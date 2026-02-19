@@ -2,7 +2,7 @@
 
 **GitHub Repository:** https://github.com/wongoining/COMP3010HK_2_oi
 
-**Video Walkthrough:** *(YouTube link to be added)*
+**Video Walkthrough:** https://www.youtube.com/watch?v=wM2BuBwN1bc
 
 ---
 
